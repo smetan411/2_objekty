@@ -1,4 +1,4 @@
-package objekty.geometrie;
+package objekty.geometrie2;
 
 public class Kruh extends Obrazec {
 

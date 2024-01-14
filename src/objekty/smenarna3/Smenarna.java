@@ -1,11 +1,11 @@
-package objekty.smenarna;
+package objekty.smenarna3;
 
 public interface Smenarna {
 
 //    v rozhrani muzou byt jen hlavicky metod a konstanty (konstanty mají označení static final)
 //    vsechny prvky rozhrani jsou verejne, nemusi se uvadet slovo public
 
-    double vykup(double kolik);
+    double smenaKorunaCiziMena(double kolik);
 
-    double prodej(double kolik);
+    double smenaCiziMenaKoruna(double kolik);
 }

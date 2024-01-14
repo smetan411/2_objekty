@@ -1,4 +1,4 @@
-package tridy1;
+package objekty.tridy1;
 
 public class Auto {
 
@@ -39,10 +39,12 @@ public class Auto {
     }
 
     public void tankuje() {
+
         System.out.println("Ja jsem auto " + typ + ". Ham mńam benzín!");
     }
 
     public void jede() {
+
         System.out.println("Ja jsem auto " + typ + " Bacha jedu, uhněte!!");
     }
 

@@ -1,4 +1,4 @@
-package objekty.geometrie;
+package objekty.geometrie2;
 
 public abstract class Obrazec {
     /**
@@ -13,7 +13,7 @@ public abstract class Obrazec {
         this.y = y;
     }
 
-    public abstract String getNazev() ;
+    public abstract String getNazev();
 
 
     public abstract double obvod();

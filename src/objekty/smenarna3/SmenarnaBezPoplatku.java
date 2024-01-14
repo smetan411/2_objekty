@@ -1,4 +1,4 @@
-package objekty.smenarna;
+package objekty.smenarna3;
 
 public class SmenarnaBezPoplatku implements Smenarna {
 
@@ -8,13 +8,11 @@ public class SmenarnaBezPoplatku implements Smenarna {
     }
 
     @Override
-    public double vykup(double kolik) {
+    public double smenaKorunaCiziMena(double kolik) {
         return kolik/kurz;
     }
 
-    public double prodej(double kolik){
+    public double smenaCiziMenaKoruna(double kolik){
         return kolik*kurz;
     }
-
-
 }

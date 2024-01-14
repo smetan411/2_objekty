@@ -1,12 +1,7 @@
-package objekty.geometrie;
+package objekty.geometrie2;
 
 //  napiste testovaci tridu pro obrazce, kde si obrazce date do pole
 //  a jako pole je pro zadane hodnoty vytisknete
-
-import objekty.geometrie.Ctverec;
-import objekty.geometrie.Kruh;
-import objekty.geometrie.Obdelnik;
-import objekty.geometrie.Obrazec;
 
 public class PoleObrazcu {
 

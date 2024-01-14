@@ -1,4 +1,4 @@
-package tridy1;
+package objekty.tridy1;
 
 public class Kocka {
 
@@ -12,21 +12,14 @@ public class Kocka {
     }
 
     public void mnouka() {
-        System.out.println("Jsem " + jmeno + ",  mnau mnau!");
-    }
 
-    public void predstaviSe() {
-        System.out.println("Jsem kocka " + jmeno + " a mam " + vek + " roku.");
+        System.out.println("Mnau, jsem kocka " + jmeno + " a mam " + vek + " roku.");
     }
-
 
     public static void main(String[] args) {
         Kocka kockaLiza = new Kocka(5, "Liza");
         Kocka mourek = new Kocka(7, "Mourek");
-
         kockaLiza.mnouka();
         mourek.mnouka();
-        kockaLiza.predstaviSe();
-        mourek.predstaviSe();
     }
 }

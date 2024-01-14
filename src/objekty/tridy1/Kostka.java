@@ -1,4 +1,4 @@
-package tridy1;
+package objekty.tridy1;
 
 import java.util.Random;
 
