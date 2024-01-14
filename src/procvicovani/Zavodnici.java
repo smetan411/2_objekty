@@ -1,4 +1,4 @@
-package procvicovani1;
+package procvicovani;
 
 
 public class Zavodnici {
