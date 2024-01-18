@@ -6,7 +6,6 @@ public class Obdelnik extends Obrazec {
     public double delka;
 
     public Obdelnik(double x, double y, double sirka, double delka) {
-
         super(x, y);
         this.sirka = sirka;
         this.delka = delka;

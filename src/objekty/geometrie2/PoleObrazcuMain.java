@@ -1,9 +1,9 @@
 package objekty.geometrie2;
 
-//  napiste testovaci tridu pro obrazce, kde si obrazce date do pole
+//  napiste tridu pro obrazce, kde si obrazce date do pole
 //  a jako pole je pro zadane hodnoty vytisknete
 
-public class PoleObrazcu {
+public class PoleObrazcuMain {
 
     public static void main(String[] args) {
 
