@@ -11,32 +11,16 @@ public class Obdelnik extends Obrazec {
         this.delka = delka;
     }
 
-    public double getSirka() {
-        return sirka;
-    }
-
-    public void setSirka(double sirka) {
-        this.sirka = sirka;
-    }
-
-    public double getDelka() {
-        return delka;
-    }
-
-    public void setDelka(double delka) {
-        this.delka = delka;
-    }
-
     @Override
     public String getNazev() {
         return "obdelnik";
     }
 
-    public double obvod() {
+    public double vypocitejObvod() {
         return 2 * (sirka + delka);
     }
 
-    public double obsah() {
+    public double vypocitejObsah() {
         return sirka * delka;
     }
 

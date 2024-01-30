@@ -1,10 +1,5 @@
-package objekty.knihovna4;
+package pokrocilaKnihovna;
 
-import objekty.smenarna3.Dolary;
-import objekty.smenarna3.Euro;
-
-import java.security.SecureRandom;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {

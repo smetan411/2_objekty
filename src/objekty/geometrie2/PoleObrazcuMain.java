@@ -14,8 +14,8 @@ public class PoleObrazcuMain {
 
         for (int i = 0; i < poleObrazcu.length; i++) {
             System.out.print("pole[" + i + "]: " + poleObrazcu[i].getNazev() + " ");
-            System.out.printf(" obvod = %.2f ", poleObrazcu[i].obvod());
-            System.out.printf(" obsah = %.2f \n", poleObrazcu[i].obsah());
+            System.out.printf(" obvod = %.2f ", poleObrazcu[i].vypocitejObvod());
+            System.out.printf(" obsah = %.2f \n", poleObrazcu[i].vypocitejObsah());
         }
     }
 }

@@ -1,4 +1,4 @@
-package objekty.knihovna4;
+package pokrocilaKnihovna;
 
 public record Osoba(String jmeno,
                     String prijmeni,

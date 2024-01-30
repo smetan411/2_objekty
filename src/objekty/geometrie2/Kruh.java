@@ -13,11 +13,11 @@ public class Kruh extends Obrazec {
         return "kruh";
     }
 
-    public double obvod() {
+    public double vypocitejObvod() {
         return 2 * 3.14159 * polomer;
     }
 
-    public double obsah() {
+    public double vypocitejObsah() {
         return 3.14159 * polomer * polomer;
     }
 }

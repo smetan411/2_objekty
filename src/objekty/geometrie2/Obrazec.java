@@ -16,7 +16,7 @@ public abstract class Obrazec {
     public abstract String getNazev();
 
 
-    public abstract double obvod();
+    public abstract double vypocitejObvod();
 
-    public abstract double obsah();
+    public abstract double vypocitejObsah();
 }
