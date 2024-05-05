@@ -1,8 +1,8 @@
-package procvicovani;
+package datoveStruktury;
 
 import java.util.*;
 
-public class Zavod {
+public class ZavodMap {
 
     // vytvorte kod v Jave, kde na vstupu zadate jmena zavodniku a jejich casy
     // na vystupu ziskate poradi zavodniku podle casu, jak dobehli v zavode
@@ -14,19 +14,14 @@ public class Zavod {
         System.out.println("Zadejte počet závodníků: ");
         int pocetZavodniku = Integer.parseInt(scanner.nextLine());
 
+        // získáme Map
         for (int i = 0; i < pocetZavodniku; i++) {
             pridatZavodnika(scanner, zavodnici);
         }
+        System.out.println("Děkuji za zadání závodníků.");
         // Seřazení závodníků podle času
         List<Map.Entry<String, Double>> serazeniZavodnici = new ArrayList<>(zavodnici.entrySet());
         serazeniZavodnici.sort((entry1, entry2) -> Double.compare(entry1.getValue(), entry2.getValue()));
-
-        // da se to taky napsat takto:
-        // serazeniZavodnici.sort(Comparator.comparingDouble(Map.Entry::getValue));
-
-        //horní zápis používá lambda výraz pro porovnání hodnot času dvou vstupních závodníků
-        // Double.compare je použito k porovnání času a vrátí záporné číslo, nulu nebo kladné číslo
-        // podle toho, zda je první čas menší, roven nebo větší než druhý čas.
 
         // Výpis výsledků
         System.out.println("\nVýsledky závodu:");

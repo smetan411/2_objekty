@@ -1,4 +1,4 @@
-package objekty.knihovna4;
+package souboryZapisCteni.knihovna1;
 
 import com.google.gson.Gson;
 

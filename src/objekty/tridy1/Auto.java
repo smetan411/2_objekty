@@ -6,16 +6,37 @@ public class Auto {
     private int vek;
     private String barva;
 
+    public String getTyp() {
+        return typ;
+    }
 
-    //konstruktor
-   public Auto(String typ, int vek, String barva) {
+    public void setTyp(String typ) {
+        this.typ = typ;
+    }
+
+    public int getVek() {
+        return vek;
+    }
+
+    public void setVek(int vek) {
+        this.vek = vek;
+    }
+
+    public String getBarva() {
+        return barva;
+    }
+
+    public void setBarva(String barva) {
+        this.barva = barva;
+    }
+
+    public Auto(String typ, int vek, String barva) {
         this.typ = typ;
         this.vek = vek;
         this.barva = barva;
     }
 
-
-      public void tankuje() {
+    public void tankuje() {
 
         System.out.println("Ja jsem auto " + typ + ". Ham mńam benzín!");
     }

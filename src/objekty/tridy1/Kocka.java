@@ -21,5 +21,7 @@ public class Kocka {
         Kocka mourek = new Kocka(7, "Mourek");
         kockaLiza.mnouka();
         mourek.mnouka();
+
+
     }
 }

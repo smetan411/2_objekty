@@ -1,13 +1,8 @@
-package objekty.knihovna4;
+package souboryZapisCteni.knihovna1;
 
-import objekty.smenarna3.Dolary;
-import objekty.smenarna3.Euro;
-
-import java.security.SecureRandom;
-import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class MainKnihovna {
     public static void main(String[] args) {
         DatabazeOsob databazeOsob = new DatabazeOsob();
         DatabazeKnih databazeKnih = new DatabazeKnih();

@@ -1,7 +1,10 @@
-package objekty.knihovna4;
+package souboryZapisCteni.knihovna1;
 
 import com.google.gson.Gson;
-import java.io.*;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 

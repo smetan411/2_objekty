@@ -8,13 +8,13 @@ public class SmenarnaSPoplatkem extends SmenarnaBezPoplatku {
         super(kurz);
         this.poplatekProcenta = poplatekProcenta;
     }
-
+    @Override
     public double smenaKorunaCiziMena(double kolik) {
         double castkaBezPoplatku = super.smenaKorunaCiziMena(kolik);
         double poplatek = castkaBezPoplatku * (poplatekProcenta / 100);
         return castkaBezPoplatku - poplatek;
     }
-
+    @Override
     public double smenaCiziMenaKoruna(double kolik) {
         double castkaBezPoplatku = super.smenaCiziMenaKoruna(kolik);
         double poplatek = castkaBezPoplatku * (poplatekProcenta / 100);
