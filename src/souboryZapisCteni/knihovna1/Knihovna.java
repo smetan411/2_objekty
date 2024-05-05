@@ -12,7 +12,7 @@ public class Knihovna {
     private final DatabazeKnih databazeKnih;
     private final Gson gson = new Gson();
 
-    private static String DB_FILE = "C:\\Users\\annas\\Documents\\krouzky23\\JavaZac\\2_objekty\\res\\vypujcky_db.json";
+    private static String DB_FILE = "C:\\Users\\annas\\Documents\\Krouzky\\JavaZac\\2_objekty\\res\\vypujcky_db.json";
 
     // vlastnik je knihy je jen jeden, ale je zvykem psat nazvy kolekci v mnoznem cisle
     private final Map<Kniha, Vypujcka> vlastniciKnih = new HashMap<>();
