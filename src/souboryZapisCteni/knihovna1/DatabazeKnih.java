@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class DatabazeKnih {
 
-    private static String DB_FILE = "C:\\Users\\annas\\Documents\\krouzky23\\JavaZac\\2_objekty\\res\\knihy_db.json";
+    private static String DB_FILE = "C:\\Users\\annas\\Documents\\krouzky\\JavaZac\\2_objekty\\res\\knihy_db.json";
     private final Gson gson = new Gson();
     private final Map<Integer, Kniha> knihy = new HashMap<>();
     private Integer isbn = 0 ;
